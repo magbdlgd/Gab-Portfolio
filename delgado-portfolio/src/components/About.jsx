@@ -5,7 +5,7 @@ import resumePDF from '../assets/Delgado_Resume.pdf'
 export const About = () => {
   const handleDownload = () => {
     const link = document.createElement('a')
-    link.href = '../assets/Delgado_Resume.pdf';
+    link.href = resumePDF
     link.download = 'Delgado_Resume.pdf'
     document.body.appendChild(link)
     link.click()
