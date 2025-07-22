@@ -1,12 +1,12 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import profileImg from '../assets/gab2.jpg'
-import resumePDF from '../assets/resume.pdf'
+import resumePDF from '../assets/Delgado_Resume.pdf'
 
 export const About = () => {
   const handleDownload = () => {
     const link = document.createElement('a')
     link.href = resumePDF
-    link.download = 'John_Doe_Resume.pdf'
+    link.download = 'Delgado_Resume.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
