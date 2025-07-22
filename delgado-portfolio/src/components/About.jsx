@@ -4,12 +4,12 @@ import resumePDF from '../assets/Delgado_Resume.pdf'
 
 export const About = () => {
   const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = resumePDF;
-    link.download = encodeURIComponent('Delgado_Resume.pdf'); // Encode the filename
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    const link = document.createElement('a')
+    link.href = '../assets/Delgado_Resume.pdf';
+    link.download = 'Delgado_Resume.pdf'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
   }
 
   return (
