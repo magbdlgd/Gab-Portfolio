@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import profileImg from '../assets/gab2.jpg'
-import resumePDF from '../assets/Delgado_Resume.pdf'
+import resumePDF from '../assets/DELGADO_RESUME.pdf'
 
 export const About = () => {
   const handleDownload = () => {
